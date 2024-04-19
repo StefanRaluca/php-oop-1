@@ -14,3 +14,16 @@ $productions = [
     new Production("Cold War", "Inglese", 10, $thriller),
     new Production(" OldBoy", "Italiano", 5, $comedy),
 ];
+
+$movies = [
+    new Movie("The Matrix", "English", 9, $action, "460$", "2h 16min"),
+    new Movie("Game of Throns", "English", 8, $action, "830$", "2h 28min"),
+    new Movie("OldBoy", "English", 7, $comedy, "467$", "1h 40min"),
+];
+
+$tvSeries = [
+    new TVSerie("AVATAR", "English", 9, $thriller, 12),
+    new TVSerie("Stranger Things", "English", 8, $thriller, 40),
+    new TVSerie("THE OUTSIDER", "Italiano", 9, $comedy, 30),
+    new TVSerie("IL TRONO DI SPADE", "Italiano", 8, $action, 20)
+];
