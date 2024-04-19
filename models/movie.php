@@ -1,5 +1,5 @@
 <?php
-require_once __DIR__ . "/production.php";
+require_once __DIR__ . "/genre.php";
 
 class Movie extends Production
 {
@@ -11,7 +11,10 @@ class Movie extends Production
         $this->profits = $profits;
         $this->duration = $duration;
     }
-
+    public function getGenre()
+    {
+        return parent::getGenre();
+    }
 }
 
 ?>

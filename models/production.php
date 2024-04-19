@@ -6,6 +6,7 @@ class Production
     public $title;
     public $language;
     public $vote;
+    public $genre;
 
     public function __construct($title, $language, $vote, Genre $genre)
     {
@@ -14,4 +15,10 @@ class Production
         $this->vote = $vote;
         $this->genre = $genre;
     }
+    public function getGenre()
+    {
+        return $this->genre;
+
+    }
+
 }
