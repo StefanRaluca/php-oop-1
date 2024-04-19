@@ -6,16 +6,16 @@
                     <ul class="list-group">
                         <?php require_once __DIR__ . '/../db.php'; ?>
                         <?php foreach ($productions as $production): ?>
-                        <li class="list-group-item text-center">
-                            <h3 class="card-title "><?php echo $production->title; ?></h3>
-                            <p class="card-text">Language: <?php echo $production->language; ?></p>
-                            <p class="card-text">Vote: <?php echo $production->vote; ?></p>
-                            <p class="card-text text-decoration-underline">Genre:
-                                <?php echo $production->genre->name; ?>
-                            </p>
-                            <p class="card-text fst-italic">Description: <?php echo $production->genre->description; ?>
-                            </p>
-                        </li>
+                            <li class="list-group-item text-center">
+                                <h3 class="card-title "><?php echo $production->title; ?></h3>
+                                <p class="card-text">Language: <?php echo $production->language; ?></p>
+                                <p class="card-text">Vote: <?php echo $production->vote; ?></p>
+                                <p class="card-text text-decoration-underline">Genre:
+                                    <?php echo $production->genre->name; ?>
+                                </p>
+                                <p class="card-text fst-italic">Description: <?php echo $production->genre->description; ?>
+                                </p>
+                            </li>
                         <?php endforeach; ?>
                     </ul>
                 </div>
