@@ -10,8 +10,5 @@ class TVSerie extends Production
         parent::__construct($title, $language, $vote, $genre);
         $this->seasons = $seasons;
     }
-    public function getGenre()
-    {
-        return parent::getGenre();
-    }
+
 }

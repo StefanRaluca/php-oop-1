@@ -11,10 +11,7 @@ class Movie extends Production
         $this->profits = $profits;
         $this->duration = $duration;
     }
-    public function getGenre()
-    {
-        return parent::getGenre();
-    }
+
 }
 
 ?>
