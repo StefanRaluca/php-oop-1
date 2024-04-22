@@ -1,9 +1,9 @@
 <?php
 
-require_once __DIR__ . "./models/production.php";
-require_once __DIR__ . './models/genre.php';
-require_once __DIR__ . "/models/movie.php";
-require_once __DIR__ . "/models/tvseries.php";
+require_once __DIR__ . "./models/Production.php";
+require_once __DIR__ . './models/Genre.php';
+require_once __DIR__ . "/models/Movie.php";
+require_once __DIR__ . "/models/Tvseries.php";
 
 $action = new Genre("Action", "Movies with action scenes,behavior of the program is checked against typical malware action patterns: Type of action and action sequences.");
 $comedy = new Genre("Comedy", "Comedy entertainment, particular scenes in them, that are intended to make people laugh.");
